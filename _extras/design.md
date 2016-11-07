@@ -26,6 +26,11 @@ Half day
      * Xarray
      * Dask
      * CF-Metadata
+ * Compare a model's output with re-analysis, plotting result  
+    Covers concepts:
+     * Iris
+     * Cartopy
+     * Matplotlib
 
 ## Formative Assessment:
 
