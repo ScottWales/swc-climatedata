@@ -43,6 +43,7 @@ Prefer whole-array operations to creating your own loops
 As much as possible do the same operation on every grid point, avoid conditionals
 
 > ## Example: Loop access patterns
+> Let's look at different ways of iterating over loops
 {: .callout}
 
 ### Full memory
@@ -50,7 +51,10 @@ As much as possible do the same operation on every grid point, avoid conditional
 When your computer's memory is full, there are a few things that can happen
 
  * Bits of memory that aren't being used can be written to disk, to be read back later when needed (swapping memory)
- * The computer can attempt to free up memory by killing a running program (OOM killer)
+ * The computer can attempt to free up memory by killing a running program (OOM killer) (Generally happens at NCI)
+
+You may hear your computer's hard disk churning
+Or processor usage takes a nosedive
 
 Reading and writing to disk is much much slower than RAM
 
@@ -62,5 +66,7 @@ Xarray can also automatically split data into chunks, only working on a bit of t
  * Will also do some parallelisation, but can only read serially
 
 > ## Example: Chunking 0.25 degree ocean data
+> What are the benefits of chunking with really big files (not using OPENDAP here!)
+> 70 GB file `/g/data/v45/mom/mom01v3/output060/temp_snap.nc`
 {: .callout}
 

@@ -1,18 +1,66 @@
 ---
-title: "Publishing and Citing Data"
-teaching: 30
-exercises: 10
+title: "Publishing Data"
+teaching: 15
+exercises: 5
 questions:
-- "How can I make my data available for others to use"
+- "How can I make my own data available to others?"
+- "How should I cite datasets?"
 objectives:
--
+- "Explain the publication process"
+- "Explain DOIs, OrchID, Zenodo"
+- "Data management plans"
 keypoints:
--
+- "Publishing datasets can be a requirement of grants or journals"
+- "CMS is happy to assist with publication - climate_help@nci.org.au"
 ---
 
-http://www.ands.org.au/working-with-data/data-management
-http://www.ands.org.au/working-with-data/data-management/ands-for-researchers
-http://climate-cms.unsw.wikispaces.net/Data+publishing+guidelines
-http://www.ands.org.au/working-with-data/metadata
-http://www.ands.org.au/working-with-data/citation-and-identifiers
+### Metadata
+
+Metadata is important for others to be able to understand and use your data.
+The standard in the climate area is [CF-NetCDF](http://cfconventions.org/),
+which has standard variable and dimension names that make it possible to
+compare results from different centres agains each other
+
+#### Resources
+ * [http://www.ands.org.au/working-with-data/metadata](http://www.ands.org.au/working-with-data/metadata)
+
+> ## Example: CF-netCDF metadata
+> To publish our NINO 3.4 data we'll first need to add some metadata
+{: .callout}
+
+### Data management plans
+
+When you apply for a grant from the ARC you may need to provide a data
+management plan, which provides information on where your data is stored and
+how it's made available to other researchers
+
+
+#### Resources
+ * [http://climate-cms.unsw.wikispaces.net/Data+publishing+guidelines](http://climate-cms.unsw.wikispaces.net/Data+publishing+guidelines)
+ * [http://www.ands.org.au/working-with-data/data-management/data-management-plans](http://www.ands.org.au/working-with-data/data-management/data-management-plans)
+
+> ## How do you manage your own data?
+> Think about your own project
+> * Will data need to be published when you publish papers or apply for grants?
+> * Where is your data stored?
+>   * Is it backed up?
+>   * How long can it stay there?
+> * Do you have documentation and metadata alongside your files?
+> * Is your data licensed?
+{: .challenge}
+
+### Citing data
+
+Papers, datsets and model code can be assigned a permanent identifier, called a
+DOI (digital object identifier) so that others can cite it.
+
+You can follow a DOI link to the canonical location using the website https://www.doi.org/
+
+Papers are assigned DOIs by the publisher. NCI can arrange for DOIs for data
+published and served on their systems, your institution may be able to help as
+well
+
+#### Resources
+ * [http://www.ands.org.au/working-with-data/citation-and-identifiers](http://www.ands.org.au/working-with-data/citation-and-identifiers)
+ * [https://guides.github.com/activities/citable-code/](https://guides.github.com/activities/citable-code/)
 
