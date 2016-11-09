@@ -1,0 +1,14 @@
+name: swc-climatedata
+channels:
+    - scitools
+dependencies:
+    - python=3
+    - pytest
+    - jupyter
+    - xarray
+    - dask
+    - iris
+    - cartopy
+    - protobuf
+    - pip:
+        - siphon
