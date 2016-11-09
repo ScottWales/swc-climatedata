@@ -12,6 +12,9 @@ keypoints:
 - "There are lots of tools for working with climate data beyond what's been covered here"
 ---
 
+http://scitools.org.uk/iris/
+http://scitools.org.uk/cartopy/
+
  * Load a model data cube with Iris
    * Different level types, aux dimensions
 
