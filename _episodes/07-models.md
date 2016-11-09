@@ -4,6 +4,7 @@ teaching: 30
 exercises: 10
 questions:
 - "How can I analyse model output?"
+- "How can I create plots of my data?"
 objectives:
 - "Use Iris to load a Unified Model file"
 - "Explore auxillary dimensions"
