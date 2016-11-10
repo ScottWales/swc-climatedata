@@ -71,8 +71,10 @@ Quick & simple viewer
  * [http://www.giss.nasa.gov/tools/panoply/](http://www.giss.nasa.gov/tools/panoply/)
  * [http://meteora.ucsd.edu/~pierce/ncview_home_page.html](http://meteora.ucsd.edu/~pierce/ncview_home_page.html)
 
-## Example: Calculating a seasonal average from the command line
+> ## Example: Calculating a seasonal average from the command line
 > Let's see how we can use nco and cdo
+>
+> [Notebook](https://github.com/ScottWales/swc-climatedata/blob/gh-pages/data/05-commandline.ipynb)
 {: .callout}
 
 > ## What tools do you use?
