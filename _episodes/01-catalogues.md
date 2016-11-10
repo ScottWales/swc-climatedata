@@ -46,6 +46,8 @@ We can help with obtaining datasets hosted outside of Australia
 
 > ## Example: Gathering URLs with Siphon
 > Lets look at how we can use THREDDS from Python
+>
+> [Notebook](https://github.com/ScottWales/swc-climatedata/blob/gh-pages/data/01-siphon.ipynb)
 {: .callout}
 
 #### References
