@@ -17,11 +17,11 @@ keypoints:
 
 There are quite a few libraries for working with climate data files in Python, here are a few:
 
- * http://unidata.github.io/netcdf4-python/
- * http://xarray.pydata.org
- * http://uvcdat.llnl.gov
- * http://scitools.org.uk/iris
- * https://www.scipy.org/
+ * [http://unidata.github.io/netcdf4-python/](http://unidata.github.io/netcdf4-python/)
+ * [http://xarray.pydata.org](http://xarray.pydata.org)
+ * [http://uvcdat.llnl.gov](http://uvcdat.llnl.gov)
+ * [http://scitools.org.uk/iris](http://scitools.org.uk/iris)
+ * [https://www.scipy.org/](https://www.scipy.org/)
 
 Most are equally happy to open a file either on disk or over OPENDAP
 
@@ -43,6 +43,8 @@ to work with seasonal instead of monthly data
 
 > ## Example: Slicing and dicing datasets
 > * What are xarray's data subset options?
+>
+> [Notebook](https://github.com/ScottWales/swc-climatedata/blob/gh-pages/data/02-xarray-slicing.ipynb)
 {: .callout}
 
 > ## According to model data, what temperature was it in Melbourne today?
