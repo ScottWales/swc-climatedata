@@ -67,8 +67,15 @@ Operate on less data at once - rather than load a bunch of files to average them
 Xarray can also automatically split data into chunks, only working on a bit of the whole field at a time
  * Will also do some parallelisation, but can only read serially, so won't make reads faster!
 
+Netcdf also supports chunking in the file, can be optimised for different access patterns (balancing quick time access vs. quick spatial access)
+
 > ## Example: Chunking 0.25 degree ocean data
 > What are the benefits of chunking with really big files (not using OPENDAP here!)
-> 70 GB file `/g/data/v45/mom/mom01v3/output060/temp_snap.nc`
+> 7 GB file `/g/data/gh5/access_cm_025-picontrol`
+>
+> [Notebook](https://github.com/ScottWales/swc-climatedata/blob/gh-pages/data/03-bigdata.ipynb)
 {: .callout}
 
+> ## Use chunking to plot the mean U velocity through the Drake Passage
+> See if you can combine chunking and a multi-file dataset to plot multiple years
+{: .challenge}
