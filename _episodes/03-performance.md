@@ -44,6 +44,8 @@ As much as possible do the same operation on every grid point, avoid conditional
 
 > ## Example: Loop access patterns
 > Let's look at different ways of iterating over loops
+>
+> [Notebook](https://github.com/ScottWales/swc-climatedata/blob/gh-pages/data/02-loops.ipynb)
 {: .callout}
 
 ### Full memory
@@ -63,7 +65,7 @@ Free up memory after use - Python will automatically free memory for you when ex
 Operate on less data at once - rather than load a bunch of files to average them together, load them one at a time, close them when done
 
 Xarray can also automatically split data into chunks, only working on a bit of the whole field at a time
- * Will also do some parallelisation, but can only read serially
+ * Will also do some parallelisation, but can only read serially, so won't make reads faster!
 
 > ## Example: Chunking 0.25 degree ocean data
 > What are the benefits of chunking with really big files (not using OPENDAP here!)
