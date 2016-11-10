@@ -58,6 +58,8 @@ to work with seasonal instead of monthly data
 > ## Example: Calculating the NINO 3.4 index
 > The NINO 3.4 index is defined as the anomaly over the region (5N - 5S, 170W -
 > 120W) compared to the historical average between 1961 and 1990
+>
+> [Notebook](https://github.com/ScottWales/swc-climatedata/blob/gh-pages/data/02-nino34.ipynb)
 {: .callout}
 
 > ## How do the RCP45 and RCP85 scenarios's NINO 3.5 index compare?
