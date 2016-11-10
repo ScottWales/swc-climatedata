@@ -45,7 +45,7 @@ As much as possible do the same operation on every grid point, avoid conditional
 > ## Example: Loop access patterns
 > Let's look at different ways of iterating over loops
 >
-> [Notebook](https://github.com/ScottWales/swc-climatedata/blob/gh-pages/data/02-loops.ipynb)
+> [Notebook](https://github.com/ScottWales/swc-climatedata/blob/gh-pages/data/03-loops.ipynb)
 {: .callout}
 
 ### Full memory
