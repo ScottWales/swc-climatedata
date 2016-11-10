@@ -30,6 +30,8 @@ We'll mostly look at `xarray` here, a 'higher-level' library for working with gr
 > ## Example: Inspecting a file with xarray
 > * Use xarray to open a file or OPENDAP link
 > * What information can we see about the data?
+>
+> [Notebook](https://github.com/ScottWales/swc-climatedata/blob/gh-pages/data/02-xarray-basics.ipynb)
 {: .callout}
 
 Behind the scenes Xarray stores data using an optimised library called `numpy`,
