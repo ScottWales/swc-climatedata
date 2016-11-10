@@ -48,3 +48,5 @@ We can help with obtaining datasets hosted outside of Australia
 > Lets look at how we can use THREDDS from Python
 {: .callout}
 
+#### References
+ * http://siphon.readthedocs.io/en/latest/
