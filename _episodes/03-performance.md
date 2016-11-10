@@ -76,6 +76,8 @@ Netcdf also supports chunking in the file, can be optimised for different access
 > [Notebook](https://github.com/ScottWales/swc-climatedata/blob/gh-pages/data/03-bigdata.ipynb)
 {: .callout}
 
-> ## Use chunking to plot the mean U velocity through the Drake Passage
+> ## Use chunking to plot the mass transport through the Drake Passage
+> Use the `tx_trans_int_z` variable
+>
 > See if you can combine chunking and a multi-file dataset to plot multiple years
 {: .challenge}
