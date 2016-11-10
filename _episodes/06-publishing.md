@@ -7,7 +7,7 @@ questions:
 - "How should I cite datasets?"
 objectives:
 - "Explain the publication process"
-- "Explain DOIs, OrchID, Zenodo"
+- "Explain DOIs, ORCID, Zenodo"
 - "Data management plans"
 keypoints:
 - "Publishing datasets can be a requirement of grants or journals"
@@ -21,6 +21,15 @@ The standard in the climate area is [CF-NetCDF](http://cfconventions.org/),
 which has standard variable and dimension names that make it possible to
 compare results from different centres agains each other
 
+Without metadata it is much harder to get tools like THREDDS to work, harder
+for other researchers to use - what are the units for this field?
+
+It's easier to collect information as you go, tools will generally preserve
+attributes. Saves having to backtrack through everything at the end
+
+If the right data is present (even if unstructured) data can be published in a
+matter of days
+
 #### Resources
  * [http://www.ands.org.au/working-with-data/metadata](http://www.ands.org.au/working-with-data/metadata)
 
@@ -33,6 +42,10 @@ compare results from different centres agains each other
 When you apply for a grant from the ARC you may need to provide a data
 management plan, which provides information on where your data is stored and
 how it's made available to other researchers
+
+Institutions also require data management plans, especially for students -
+thesis related data needs to be kept in an institutional archive for a number
+of years after graduation
 
 
 #### Resources
@@ -60,7 +73,19 @@ Papers are assigned DOIs by the publisher. NCI can arrange for DOIs for data
 published and served on their systems, your institution may be able to help as
 well
 
+ANDS partners with ORCID, a researcher ID system, to match datasets with authors
+
+ARC encourages researchers to sign up
+
+Not-for-profit organisation linking researchers with publications and data
+
+Code is also data, and important to preserve and cite! Keep your code in
+version control (github, bitbucket, gitlab). You can assign a DOI to a specific
+code version, either through ANDS or tools like CERN's Zenodo
+
 #### Resources
  * [http://www.ands.org.au/working-with-data/citation-and-identifiers](http://www.ands.org.au/working-with-data/citation-and-identifiers)
  * [https://guides.github.com/activities/citable-code/](https://guides.github.com/activities/citable-code/)
+ * [https://www.nhmrc.gov.au/grants-funding/policy/nhmrc-and-arc-statement-open-researcher-and-contributor-id-orcid](https://www.nhmrc.gov.au/grants-funding/policy/nhmrc-and-arc-statement-open-researcher-and-contributor-id-orcid)
+ * [https://zenodo.org/](https://zenodo.org/)
 

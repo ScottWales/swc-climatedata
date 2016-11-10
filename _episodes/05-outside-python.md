@@ -31,7 +31,9 @@ Concatenate files, ensemble averaging,
 
 Lots of options, complex 'kitchen-sink' operator
 
-Rename variables, move variables, basic math
+Right tool for modifying attributes (add, delete change)
+
+move variables, basic math
 
 CDO:
 Basic stats for each variable (min, mean, max)
@@ -49,8 +51,11 @@ cdo diff FILEA FILEB
 * Correlations
 * Interpolation
 
-http://nco.sourceforge.net/nco.html
-https://code.zmaw.de/projects/cdo
+
+#### References
+ * [http://nco.sourceforge.net/nco.html](http://nco.sourceforge.net/nco.html)
+ * [https://code.zmaw.de/projects/cdo](https://code.zmaw.de/projects/cdo)
+
 
 ## NetCDF viewers
 
@@ -58,15 +63,19 @@ Panoply
 
 Allows a variety of plot types, combine u and v vector data. Available at NCI on VDI only
 
-http://www.giss.nasa.gov/tools/panoply/
-
 Ncview, available at nci
 
 Quick & simple viewer
 
-http://meteora.ucsd.edu/~pierce/ncview_home_page.html
+#### References
+ * [http://www.giss.nasa.gov/tools/panoply/](http://www.giss.nasa.gov/tools/panoply/)
+ * [http://meteora.ucsd.edu/~pierce/ncview_home_page.html](http://meteora.ucsd.edu/~pierce/ncview_home_page.html)
 
+## Example: Calculating a seasonal average from the command line
+> Let's see how we can use nco and cdo
+{: .callout}
 
- * Use cdo/nco to calculate seasonal average
-   * Importance of metadata, history attribute
-   * Quick plots with ncview
+> ## What tools do you use?
+> There's a vast variety of tools out there, more than can be covered by me.
+> Ask your neighbour what tools or libraries they use for data analysis
+{: .discussion}
