@@ -22,6 +22,7 @@ you can email us to get help or information at **climate_help@nci.org.au**
 > {: .source}
 >
 > Or on VDI:
+>
 > ~~~
 > source /short/w35/saw562/conda/bin/activate swc-climatedata
 > ~~~
