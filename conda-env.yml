@@ -1,6 +1,7 @@
 name: swc-climatedata
 channels:
     - scitools
+    - ioam
 dependencies:
     - python=3
     - pytest
@@ -10,5 +11,7 @@ dependencies:
     - iris
     - cartopy
     - protobuf
+    - holoviews
+    - geoviews
     - pip:
         - siphon
