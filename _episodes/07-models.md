@@ -25,6 +25,8 @@ files, the atmospheric model used in ACCESS
 
 > ## Example: Inspecting a model output file with Iris
 > Let's look at what we can see in an output file from the ACCESS model
+>
+> [Notebook](https://github.com/ScottWales/swc-climatedata/blob/gh-pages/data/07-iris.ipynb)
 {: .callout}
 
 > ## What are the differences between Iris and Xarray's datasets?

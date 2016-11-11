@@ -27,11 +27,26 @@ for other researchers to use - what are the units for this field?
 It's easier to collect information as you go, tools will generally preserve
 attributes. Saves having to backtrack through everything at the end
 
+Metadata is for both single files as well as groups of files
+
 If the right data is present (even if unstructured) data can be published in a
 matter of days
 
+Attribute convention for data discovery is a good list of recommended attributes
+
+History give a view on how the file was created, use timestamps
+
+NCO's `ncatted` can edit attributes
+
+~~~
+ncatted --attribute NAME,VARIABLE,MODE,TYPE,VALUE input.nc output.nc
+~~~
+{: .source}
+
 #### Resources
  * [http://www.ands.org.au/working-with-data/metadata](http://www.ands.org.au/working-with-data/metadata)
+ * [http://cfconventions.org](http://cfconventions.org)
+ * [http://wiki.esipfed.org/index.php/Attribute_Convention_for_Data_Discovery](http://wiki.esipfed.org/index.php/Attribute_Convention_for_Data_Discovery)
 
 > ## Example: CF-netCDF metadata
 > To publish our NINO 3.4 data we'll first need to add some metadata
@@ -45,8 +60,9 @@ how it's made available to other researchers
 
 Institutions also require data management plans, especially for students -
 thesis related data needs to be kept in an institutional archive for a number
-of years after graduation
+of years after graduation.
 
+Think about licencing, creative commons is ANDS recommendation
 
 #### Resources
  * [http://climate-cms.unsw.wikispaces.net/Data+publishing+guidelines](http://climate-cms.unsw.wikispaces.net/Data+publishing+guidelines)
@@ -83,9 +99,22 @@ Code is also data, and important to preserve and cite! Keep your code in
 version control (github, bitbucket, gitlab). You can assign a DOI to a specific
 code version, either through ANDS or tools like CERN's Zenodo
 
+> ## Recommended citation formats
+> Creator (PublicationYear). Title. Publisher. Identifier
+>
+> Creator (PublicationYear). Title. Version. Publisher. ResourceType. Identifier
+> 
+> [https://www.datacite.org/cite-your-data.html](https://www.datacite.org/cite-your-data.html)
+{: .callout}
+
 #### Resources
  * [http://www.ands.org.au/working-with-data/citation-and-identifiers](http://www.ands.org.au/working-with-data/citation-and-identifiers)
  * [https://guides.github.com/activities/citable-code/](https://guides.github.com/activities/citable-code/)
  * [https://www.nhmrc.gov.au/grants-funding/policy/nhmrc-and-arc-statement-open-researcher-and-contributor-id-orcid](https://www.nhmrc.gov.au/grants-funding/policy/nhmrc-and-arc-statement-open-researcher-and-contributor-id-orcid)
  * [https://zenodo.org/](https://zenodo.org/)
 
+## Getting help
+
+ARCCSS CMS are happy to help publish your data. We have a dedicated data
+manager who works with NCI and ANDS to make sure your data is available and
+citable, email **climate_help@nci.org.au**
